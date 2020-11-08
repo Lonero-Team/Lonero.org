@@ -63,7 +63,7 @@
 		height: 280px; overflow: hidden;
 	}
 	.specification-list-item-bg h5 {
-		font-size: 12px;
+		font-size: 11pt;
 	}
 	.specification-list-item-bg p {
 		font-size: 8px;
@@ -108,7 +108,7 @@
 		margin-bottom: 30px; height: auto; padding: 20px !important;
 	}
 	.specification-list-item-bg h5 {
-		font-size: 20px;
+		font-size: 11pt;
 	}
 	.specification-list-item-bg p {
 		font-size: 13px; line-height: 20px;
