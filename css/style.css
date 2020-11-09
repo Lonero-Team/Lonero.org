@@ -182,10 +182,11 @@ button {
 }
 
 .about-left p {
-	text-align: center;
+	text-align: justify;
 	margin-bottom: 30px !important;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 24px;
+	word-break: break-word;
 }
 
 .main-title {
