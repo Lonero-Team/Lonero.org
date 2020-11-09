@@ -101,7 +101,8 @@
       </div>
       <div class="row main-header-partners">
         <div class="col-md-12">
-          <a href="https://www.starkdrones.org/" target="_blank"><img src="img/partners/stark_drones.png" alt="cnbs" class="brands w-100" /></a>
+          <a href="https://www.starkdrones.org/" target="_blank"><img src="img/partners/stark_drones.png" alt="cnbs"
+              class="brands w-100" /></a>
         </div>
       </div>
     </div>
@@ -114,20 +115,20 @@
         About <span> LNR</span>
       </h1>
       <div class="row">
-        <div class="col-md-7 about-left text-justify" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">
+        <div class="col-md-7 about-left" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">
           <article>
 
-            <p>Lonero(LNR) is a newly emerging cryptocurrency that aims to be the future of digital cash. The
+            <p style="word-spacing: -1px;">Lonero(LNR) is a newly emerging cryptocurrency that aims to be the future of digital cash. The
               problem with current privacy coins, alt coins, and emerging cryptocurrencies relies mainly on stability,
               security, and an unknown future. We aim to fix many of these stability issues, be extremely
               decentralized, and have technology that actively supports the community.
 
-              <p>We are utilizing some of the most advanced technological protocols in order to do so. This includes our
+              <p style="word-spacing: -1px;" >We are utilizing some of the most advanced technological protocols in order to do so. This includes our
                 consensus protocols that support less barriers amongst ASIC vs. Non-ASIC systems, along with the
                 Cryptonote foundation’s widely trusted ring signature protocols, multiple layers of security, and a
                 utilization of “Proof of Work” and “Proof of Space” mining. </p>
 
-              <p>Among the technology we are also integrating a Decentralized Autonomous Organization or DAO,
+              <p style="word-spacing: -1px;">Among the technology we are also integrating a Decentralized Autonomous Organization or DAO,
                 bounty programs, and a mathematical proof that allows further decentralization. We believe that mining
                 rewards shouldn’t merely be limited to hardware specifications but also to total mathematical
                 knowledge, so we provide a fair market game to everyone involved.</p>
@@ -616,7 +617,7 @@
     $('#subcribe').click(function () {
       var email = $('#email').val();
       console.log(email);
-      
+
       const store = new SteinStore("https://api.steinhq.com/v1/storages/5fa37d555d3cdc44fcd7d6be");
 
       store.append("Sheet1", [{
@@ -625,7 +626,7 @@
         .then(res => {
 
           $('#success').text('Thank you for subscribing!');
-          $('#success').fadeOut(8000);  
+          $('#success').fadeOut(8000);
           console.log(res);
         });
     });
@@ -667,7 +668,7 @@
         responsive: true,
         maintainAspectRatio: true,
         legend: {
-        display: false
+          display: false
         },
       }
     });

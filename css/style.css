@@ -177,6 +177,12 @@ button {
 	border-radius: 20px;
 }
 
+.about-left
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 .about-left .main-but-md {
 	margin-right: 10px;
 }
@@ -186,7 +192,6 @@ button {
 	margin-bottom: 30px !important;
 	font-size: 15px;
 	line-height: 24px;
-	word-break: break-word;
 }
 
 .main-title {
