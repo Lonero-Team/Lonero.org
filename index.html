@@ -239,7 +239,7 @@
       <h1 class="main-title">
         CIRCULATING SUPPLY<span> AND DISTRIBUTION</span>
       </h1>
-      <canvas id="finace" width="600" height="400"></canvas>
+      <canvas id="finace" width="600" height="200"></canvas>
     </div>
     <!-- finacial status -->
   </section>
@@ -655,9 +655,9 @@
       data: {
         labels: ["Founder", "Co-Founder", "Design & Marketing Team", "Content & Media Team", "Lonero Foundation",
           "Public Release"
-        ],
+],
         datasets: [{
-          label: 'CIRCULATING SUPPLY AND DISTRIBUTION',
+          // label: 'CIRCULATING SUPPLY AND DISTRIBUTION',
           backgroundColor: '#00aeef',
           data: [15000000, 8000000, 1000000, 1000000, 5000000, 55000000]
         }]
@@ -666,7 +666,7 @@
       // Configuration options go here
       options: {
         responsive: true,
-        maintainAspectRatio: true,
+        maintainAspectRatio: false,
         legend: {
           display: false
         },
