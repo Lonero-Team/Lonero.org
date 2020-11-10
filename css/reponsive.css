@@ -71,7 +71,32 @@
 	.attributes .attributes-content .attributes-content-inside img {
 		width: 100% !important; margin: 0 auto;  padding-top: 50px;
 	}
+
 }
+
+@media (max-width:415px)
+{
+	.specification p 
+	{
+		text-align: justify;
+		word-spacing: -0.2em;
+	}
+
+	#finace
+	{
+		height: 350px !important;
+		width: 100%;
+	}
+
+}
+
+/* @media (min-width: 1200px)
+{
+	#finace
+	{
+		height: 400px !important;
+	}
+} */
 
 /* width between 1200 > 992 */
 @media (max-width: 1200px) and (min-width: 992px){
