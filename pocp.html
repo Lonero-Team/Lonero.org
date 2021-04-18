@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reponsive.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- animated css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <!-- end animated css -->
+
+    <!-- chart css -->
+    <link rel="stylesheet" href="css/Chart.css" type="text/css">
+    <!-- end chart css -->
+    <!-- light box -->
+    <link rel="stylesheet" href="css/ekko-lightbox.css" type="text/css">
+
+    <style>
+        @media (max-width: 415px){
+            .specification p {
+                word-spacing: normal !important;
+            }
+        }
+    </style>
+    <!-- end light box -->
+
+    <title>Lonero</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/LoneroLogo_20.png" class="d-inline-block align-top" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Home <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pocp.html"> PoCP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About LNR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Wallet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About section -->
+    <section id="about">
+        <!-- Sepecification section -->
+        <div class="container specification">
+            <h1 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200"
+                style="margin-top:3em">
+                Proof of Computation
+            </h1>
+            <div class="row" style="margin-top:2em">
+                <div class="col-md-12 specification-left" data-aos="zoom-in" data-aos-duration="2000"
+                    data-aos-offset="200">
+                    <a href="img/Screenshot_2021-04-16 HashBolt.png" data-toggle="lightbox" data-gallery="hidden-images" data-footer="<a href='http://lonero.org/hashbolt/' target='_blank'>Click Here</a>">
+                        <img src="img/Screenshot_2021-04-16 HashBolt.png" class="img-fluid hash-bot">
+                    </a>
+                    
+                </div>
+
+                <div class="col-md-12">
+                    <p class="text-left mt-3">
+                        HashBolt is a hybrid masternode consensus. Lonero's masternode consensus allow masternodes to
+                        receive mined rewards while holding LNR for a certain locked period in order to avoid network
+                        congestion. Lonero eventually wants compatibility w/ a Proof of Computation mining proof, that
+                        is in an experimental phase. We want to build the masternode system in a way that is accessible
+                        towards many, and can create a network of scale.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <!-- Sepecification section -->
+        <div class="container specification">
+            <h1 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200"
+                style="margin-top:3em">
+                BItcoin Efficient
+            </h1>
+            <div class="row" style="margin-top:2em">
+                <div class="col-md-12 specification-left" data-aos="zoom-in" data-aos-duration="2000"
+                    data-aos-offset="200">
+                    <a href="https://www.youtube.com/watch?v=IvNT2UtsISM" data-toggle="lightbox">
+                        <img src="img/Video_Thumbnail.png"
+                            class="img-fluid hash-bot">
+                    </a>
+                </div>
+
+                <div class="col-md-12">
+                    <p class="text-left mt-3">
+                        Large entities worth billions upon billions of dollars are building data centers filled with
+                        ASIC rigs. Most computers can't efficiently mine BTC, and you have high energy costs. Outside of
+                        energy costs, Bitcoin isn't as efficient as it could be. You have slow speeds, many invalidated
+                        blocks, and the network extremely vulnerable to centralized mining. This is where we introduce a
+                        hard fork known as Bitcoin Efficient. Bitcoin Efficient aims to allow everybody on board without
+                        disenfranchising ASIC miners. This aims to be much more energy efficient, decentralized, and
+                        take adaptability to a whole new level. It will be based off of "Proof of Computation" over just
+                        Hashcash.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="https://www.reddit.com/r/BitcoinEfficient/" target="_blank" class="btn btn-success btn-block btn-pocp">Reddit</a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="https://twitter.com/btcefficient" target="_blank" class="btn btn-success btn-block btn-pocp">Twitter</a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="https://www.instagram.com/bitcoinefficient/" target="_blank" class="btn btn-success btn-block btn-pocp">Instagram</a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <a href="https://bitcointalk.org/index.php?action=profile;u=2252959" target="_blank" class="btn btn-success btn-block btn-pocp">BitcoinTalk</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>LONERO TOOLS</h5>
+                    <ul>
+                        <li><a href="https://www.starkdrones.org/home/os">OS</a></li>
+                        <li><a
+                                href="https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html">SDK</a>
+                        </li>
+                        <li><a
+                                href="https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Critical%20Components.html">Guide</a>
+                        </li>
+                        <li><a href="https://github.com/Lonero-Team/Lonero-Wallet-2.0/releases">Wallet</a></li>
+                        <li><a href="https://leanpub.com/futurism/">LeanPub</a></li>
+                        <li><a
+                                href="https://lonero.readthedocs.io/en/latest/LNR%20Next%20Generation%20Hardware/ChainBoard.html">ChainBoard</a>
+                        </li>
+                        <li><a href="https://lonero.readthedocs.io/">ReadtheDocs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="https://lonero-team.github.io/API/">API</a></li>
+                        <li><a href="https://github.com/Lonero-Team/Lonero-Community/wiki">Wiki</a></li>
+                        <li><a href="https://hackernoon.com/u/TheLoneroFoundation">Blog</a></li>
+                        <li><a href="https://minds.com/lonerolnr">Minds</a></li>
+                        <li><a href="https://www.openhub.net/p/decentralized-internet">Open Hub</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a
+                                href="https://hackaday.io/project/171604-building-a-decentralized-internet/details">Log</a>
+                        </li>
+                        <li><a href="https://lonero-team.github.io/helpdesk/">FAQ</a></li>
+                        <li><a href="https://reddit.com/u/lonerolnr">Reddit</a></li>
+                        <li><a href="https://gitter.im/Decentralized-Internet/community?source=orgpage">Glittter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Subscribe</h5>
+                    <form>
+                        <label>Get the latest news and updates</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your email" name="email" id="email" />
+                            <div class="input-group-append">
+                                <button type="button" class="input-group-text footer-btn" id="subcribe">Submit</button>
+                            </div>
+                            <label class="text text-success text-center blue" id="success"></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/readMoreJS.min.js"></script>
+    <!-- chart js -->
+    <script src="js/Chart.js"></script>
+
+    <!-- end chart js -->
+    <!-- facebook pluging -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3">
+    </script>
+    <!-- end facebook pluging -->
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="js/ekko-lightbox.min.js"></script>
+    <script src="js/ekko-lightbox.min.js.map"></script>
+    <script src="https://unpkg.com/stein-js-client"></script>
+
+    <script>
+        $('#subcribe').click(function () {
+            var email = $('#email').val();
+            console.log(email);
+
+            const store = new SteinStore("https://api.steinhq.com/v1/storages/5fa37d555d3cdc44fcd7d6be");
+
+            store.append("Sheet1", [{
+                    email: email,
+                }])
+                .then(res => {
+
+                    $('#success').text('Thank you for subscribing!');
+                    $('#success').fadeOut(8000);
+                    console.log(res);
+                });
+        });
+    </script>
+
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+    <script>
+        $readMoreJS.init({
+            target: '.dummy', // Selector of the element the plugin applies to (any CSS selector, eg: '#', '.'). Default: ''
+            numOfWords: 50, // Number of words to initially display (any number). Default: 50
+            toggle: true, // If true, user can toggle between 'read more' and 'read less'. Default: true
+            moreLink: 'read more ...', // The text of 'Read more' link. Default: 'read more ...'
+            lessLink: 'read less' // The text of 'Read less' link. Default: 'read less'
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('finace').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'bar',
+            data: {
+                labels: ["Founder", "Co-Founder", "Design & Marketing Team", "Content & Media Team",
+                    "Lonero Foundation",
+                    "Public Release"
+                ],
+                datasets: [{
+                    // label: 'CIRCULATING SUPPLY AND DISTRIBUTION',
+                    backgroundColor: '#00aeef',
+                    data: [15000000, 8000000, 1000000, 1000000, 5000000, 55000000]
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                legend: {
+                    display: false
+                },
+            }
+        });
+    </script>
+    <script>
+        $(function () {
+
+            $(".roadmap").slice(0, 1).show();
+            $("#loadMore").on('click', function (e) {
+                e.preventDefault();
+                $("div:hidden").slice(0, 4).slideDown();
+                if ($("div:hidden").length == 0) {
+                    $("#load").fadeOut('slow');
+                }
+                $('html,body').animate({
+                    scrollTop: $(this).offset().top
+                }, 1500);
+            });
+        });
+
+        // $('a[href=#top]').click(function () {
+        // $('body,html').animate({
+        // scrollTop: 0
+        // }, 600);
+        // return false;
+        // });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            var slickOpts = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            };
+
+            var slickOptsTwo = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            };
+
+            // Init the slick
+            $("#our-team-slider").slick(slickOpts);
+            $("#attribute-slider").slick(slickOptsTwo);
+
+            var slickEnabled = true;
+        });
+    </script>
+    <script type="text/javascript">
+        particlesJS("particles-js", {
+            particles: {
+                number: {
+                    value: 70,
+                    density: {
+                        enable: true,
+                        value_area: 631.3181133058181
+                    }
+                },
+                color: {
+                    value: "#00aeef"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#00aeef"
+                    },
+                    polygon: {
+                        nb_sides: 3
+                    }
+                },
+                opacity: {
+                    value: 1,
+                    random: false,
+                    anim: {
+                        enable: false,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 2,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 100,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 63.131811330581804,
+                    color: "#00aeef",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 400,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 4
+                    },
+                    remove: {
+                        particles_nb: 2
+                    }
+                }
+            },
+            retina_detect: true
+        });
+        var count_particles, stats, update;
+        stats = new Stats();
+        stats.setMode(0);
+        stats.domElement.style.position = "absolute";
+        stats.domElement.style.left = "0px";
+        stats.domElement.style.top = "0px";
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector(".js-count-particles");
+        update = function () {
+            stats.begin();
+            stats.end();
+            if (
+                window.pJSDom[0].pJS.particles &&
+                window.pJSDom[0].pJS.particles.array
+            ) {
+                count_particles.innerText =
+                    window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script>
+
+    <script>
+        $(function () {
+            $("#loadmore").show();
+            $(".road-map-hidden").slice(0, 2).show();
+            $("#loadmore").on('click', function (e) {
+                e.preventDefault();
+                $(".road-map-hidden:hidden").slice(0, 2).slideDown();
+                if ($(".road-map-hidden:hidden").length == 0) {
+                    $("#load").fadeOut('slow');
+                    $("#loadmore").css('display', 'none');
+                    $("#less").show();
+
+                }
+                // $('html,body').animate({
+                //   scrollTop: $(this).offset().top
+                // },1500);
+            });
+
+            $("#less").on('click', function (e) {
+                e.preventDefault();
+                $(".road-map-hidden").css('display', 'none')
+                $("#load").fadeOut('slow');
+                $(".road-map-hidden:hidden").slice(0, 2).show();
+                $("#loadmore").show();
+                $("#less").css('display', 'none');
+            });
+        });
+    </script>
+
+    <script>
+        $readMoreJS.init({
+            target: '.content-hide',
+            numOfWords: 18,
+            toggle: true,
+            moreLink: 'read more ...',
+            lessLink: 'read less',
+            linkClass: 'rm-link',
+            containerClass: false
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var scrollLink = $('.scroll');
+
+            // Smooth scrolling
+            scrollLink.click(function (e) {
+                e.preventDefault();
+                $('body,html').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+
+            // Active link switching
+            $(window).scroll(function () {
+                var scrollbarLocation = $(this).scrollTop();
+
+                scrollLink.each(function () {
+                    if ($(this.hash).length) {
+                        var sectionOffset = $(this.hash).offset().top - 20;
+                    }
+                    if (sectionOffset <= scrollbarLocation) {
+                        $(this).parent().addClass('active');
+                        $(this).parent().siblings().removeClass('active');
+                    }
+                })
+            })
+        })
+    </script>
+
+</body>
+
+</html>
